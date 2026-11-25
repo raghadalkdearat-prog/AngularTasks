@@ -1,0 +1,26 @@
+.store-header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.store-name {
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 0 15px;
+}
+
+.welcome-message {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.store-slogan {
+  font-size: 18px;
+  font-style: italic;
+  color: #cbd5e1;
+  margin: 10px 0;
+}

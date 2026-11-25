@@ -1,0 +1,29 @@
+<h1 class="section-title">Laptop Details</h1>
+
+<div class="product-details-container">
+
+  <div class="product-image">
+    <img [src]="productImage" [alt]="productName">
+  </div>
+
+  <div class="product-info">
+
+    <h2 class="product-name">{{ productName }}</h2>
+
+    <p class="product-description">{{ productDescription }}</p>
+
+    <p class="product-price">Price: {{ productPrice }} USD</p>
+
+    <p class="product-quantity">Quantity: {{ quantity }}</p>
+
+    <p class="product-status">
+      Status: {{ isAvailable ? 'Available' : 'Out of Stock' }}
+    </p>
+
+    <p class="product-discount">
+      Discount: {{ discountPercentage }}%
+    </p>
+
+  </div>
+
+</div>

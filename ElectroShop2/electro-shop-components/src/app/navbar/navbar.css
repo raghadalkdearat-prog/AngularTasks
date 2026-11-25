@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: #334155;
+  padding: 15px;
+  margin: 0;
+  gap: 15px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+p {
+  text-align: center;
+  color: #1e3a5f;
+  font-weight: bold;
+}
